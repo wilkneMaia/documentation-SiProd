@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "documentation-siprod"
+version = "0.1.0"
+description = ""
+authors = ["Wilkne Maia <wilkne@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mkdocs-material = "^8.1.11"
+mkdocs = "^1.2.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

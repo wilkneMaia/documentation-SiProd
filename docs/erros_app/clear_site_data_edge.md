@@ -1,6 +1,6 @@
 # Limpar dados de navegação no Edge
 
-1. Abra o sistema [siprod.com](https://eletromecanica-sossego.web.app).
+1. Abra o sistema [siprod_diurno](https://eletromecanica-sossego.web.app) | [siprod_noturno](https://manut-ind-paradao-cks.web.app/construction).
 
 2. Com o navegador do Edge pressione a tecla "F12" ou no canto superior direito e clique nos três pontos verticais.![Image](./images/clear_site_data_edge_1.png)
 
@@ -12,4 +12,5 @@
 5. Para finalizar atualize o navegador e faça o login novamente.
 ![Image](./images/clear_site_data_edge_4.png)
 
->Se não vir a opção `"Aplicativo"`, selecione o ícone`">>"` para revelar guias ocultas.
+!!! warning "Atenção"
+    Se não exibir a opção `"Aplicativo"`, selecione o ícone`">>"` para revelar guias ocultas.

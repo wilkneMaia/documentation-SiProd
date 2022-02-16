@@ -4,6 +4,9 @@ theme:
   name: material
   font: Roboto Mono
   lang: pt-BR
+  # favicon: images/favicon.png
+  features:
+    - navigation.indexes
   palette:
     - scheme: default
       primary: red
@@ -16,16 +19,29 @@ theme:
         icon: material/weather-night
         name: Modo claro
 
+plugins:
+  - search:
+      lang: pt
 
 nav:
   - 'Home': 'index.md'
-  - 'Limpar dados de navegação no chrome': 'clear_site_data.md'
-  - 'Instalar App SiProd': 'install_siprod_app.md'
+  - Instalar SiProd APP:
+    - install_app_siprod/install_siprod_app.md
+  - Erros:
+    - erros_app/clear_site_data_chrome.md
+    - erros_app/clear_site_data_edge.md
 
 markdown_extensions:
+  - admonition
   - pymdownx.keys
   - pymdownx.superfences
+  - pymdownx.tabbed
 
 extra:
   version:
     provider: mike
+  social:
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCxn0h0EOKpYfJ9yewaUVHaQ
+
+copyright: SiProd &copy; 2020 - 2022 | Lindamar Fernandes| Mardone Dias | Wilkne Maia

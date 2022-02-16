@@ -64,7 +64,9 @@ ___
 
 ## RESUMO
 
->* Dados são classificados como dados categóricos ou dados numéricos.
->* Alguns dados, como “muito divertida” ou “muito chata”, são dados teoricamente categóricos. No entanto, na prática, é possível trata-los como dados numéricos.
+!!! info Resumo
+
+* Dados são classificados como dados categóricos ou dados numéricos.
+* Alguns dados, como “muito divertida” ou “muito chata”, são dados teoricamente categóricos. No entanto, na prática, é possível trata-los como dados numéricos.
 >
 ___
