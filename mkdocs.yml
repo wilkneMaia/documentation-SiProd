@@ -20,6 +20,7 @@ theme:
 nav:
   - 'Home': 'index.md'
   - 'Limpar dados de navegação no chrome': 'clear_site_data.md'
+  - 'Instalar App SiProd': 'install_siprod_app.md'
 
 markdown_extensions:
   - pymdownx.keys
