@@ -24,7 +24,7 @@ plugins:
       lang: pt
 
 nav:
-  - 'Home': 'index.md'
+  - 'Home': 'home/index.md'
   - Web:
     - Cadastros:
       - web/register/register_activities/register_activities.md
