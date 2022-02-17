@@ -25,11 +25,17 @@ plugins:
 
 nav:
   - 'Home': 'index.md'
-  - Instalar SiProd APP:
-    - install_app_siprod/install_siprod_app.md
-  - Erros:
-    - erros_app/clear_site_data_chrome.md
-    - erros_app/clear_site_data_edge.md
+  - Web:
+    - Cadastros:
+      - web/register/register_activities/register_activities.md
+      - web/register/register_equipment/register_equipment.md
+      - web/register/register_service_release/register_service_release.md
+      - web/register/register_electronic_point/register_electronic_point.md
+    - Limpar o cache:
+      - web/clear_site_data/clear_site_data_chrome.md
+      - web/clear_site_data/clear_site_data_edge.md
+  - Mobile:
+    - mobile/install_app_siprod/install_siprod_app.md
 
 markdown_extensions:
   - admonition
@@ -44,4 +50,4 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/channel/UCxn0h0EOKpYfJ9yewaUVHaQ
 
-copyright: SiProd &copy; 2020 - 2022 | Lindamar Fernandes| Mardone Dias | Wilkne Maia
+copyright: SiProd &copy; 2019 - 2022 | Lindamar Fernandes| Wilkne Maia | Mardone Dias
